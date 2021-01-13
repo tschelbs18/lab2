@@ -17,4 +17,5 @@ function projectClick(e) {
     $('.jumbotron').css("background","#a770ef");
     $('.jumbotron').css("background","#-webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b)");
     $('.jumbotron').css("background","linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b)");
+    document.body.style.backgroundColor = "gainsboro";
 }
