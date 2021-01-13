@@ -13,7 +13,8 @@
    the CSS to the page. feel free to remove it once the link is working. */
 body {
      border: 1px dotted gray;
-     padding: 20px;
+     padding: 10px;
+		 background: #f4f4f4;
 }
 
 .jumbotron {

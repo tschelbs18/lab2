@@ -4,15 +4,17 @@ $(document).ready(function() {
 
 function initializePage() {
     $('#testjs').click(function(e) {
-            $('.jumbotron h1').text("Javascript is connected");
+            $('.jumbotron h1').text("Ted knows JavaScript!");
             });
-            $("a.thumbnail").click(projectClick);
+            $("#testjs").click(projectClick);
 }
 
 function projectClick(e) {
     // prevent the page from reloading
     e.preventDefault();
-    // In an event handler, $(this) refers to  
+    // In an event handler, $(this) refers to
     // the object that triggered the event
-    $(this).css("background-color", "#7fff00");
+    $('.jumbotron').css("background","#a770ef");
+    $('.jumbotron').css("background","#-webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b)");
+    $('.jumbotron').css("background","linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b)");
 }
